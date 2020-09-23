@@ -15,7 +15,7 @@ namespace NotificationService.Database
        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql(@"server=ts-management-db; port=3306; database=notificationdb; user=user; password=password");
+            optionsBuilder.UseMySql(@"server=ts-management-db; port=3306; database=notificationdb; user=root; password=password");
         }
     }
 }
